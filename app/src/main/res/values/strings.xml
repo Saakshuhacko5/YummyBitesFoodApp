@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Yummy Bites</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="details_correctly">Invalid Credentials entered</string>
+    <string name="name_empty">UsernameMail can not be empty</string>
+    <string name="pass_empty">Password can not be empty</string>
+    <string name="phn_no_empty">Phone Number can not be empty</string>
+    <string name="email_empty">Email can not be empty</string>
+    <string name="info">Add n number of Address </string>
+    <string name="add_edit_address">Add/Edit Address : </string>
+    <string name="sign_up">Sign up</string>
+    <string name="add_location">Take Current Location</string>
+    <string name="sign_in">Sign in</string>
+    <string name="welcome">Welcome </string>
+    <string name="offers">Offers : </string>
+    <string name="error">An error Occurred</string>
+    <string name="Briyani">"   "Briyani"     "</string>
+    <string name="Fried_Rice">"    "Fried Rice"     "</string>
+    <string name="Meals">"    "Meals"     " </string>
+    <string name="Starters">"    "Starters"     " </string>
+    <string name="Pizza">"    "Pizza"     " </string>
+    <string name="Dosa">"    "Dosa"     " </string>
+    <string name="login_successful">Login Successfully</string>
+    <string name="reg_successful">User Registered Successfully</string>
+    <string name="name_length">Username length should be greater than 3</string>
+    <string name="phn_no_length">Phone Number length cannot be less than 10</string>
+    <string name="email_format">Email format should be correct</string>
+    <string name="already_reg">User Already Registered</string>
+    <string name="already_acc">Already have an account ? </string>
+    <string name="acc_notPresent">Dont have an account ? </string>
+    <string name="food_category">Food Categories:</string>
+    <string name="snacks_drinks">Snacks/Drinks :</string>
+    <string name="top_ratings">Top Rating Foods:</string>
+    <string name="not_registered">User not able to Register</string>
+    <string name="alert">Alert !</string>
+    <string name="cancel">Cancelled</string>
+    <string name="logout">Logout</string>
+    <string name="exit_message">Are you sure you want to Exit</string>
+    <string name="wait_message">Are you sure you want to Wait</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

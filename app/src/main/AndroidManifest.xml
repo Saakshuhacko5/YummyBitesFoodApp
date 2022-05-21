@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yummybites">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.YummyBites">
+        <activity
+            android:name=".splashscreen.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".loginscreens.LoginScreenActivity"
+            android:exported="true"
+            android:hardwareAccelerated="false"
+            android:label="       Login Screen      "
+            android:parentActivityName=".splashscreen.MainActivity" />
+        <activity
+            android:name=".loginscreens.SignupScreenActivity"
+            android:exported="true"
+            android:label="       Sign up Screen     "
+            android:parentActivityName=".loginscreens.LoginScreenActivity" />
+        <activity
+            android:name=".dashboard.NavigationScreenActivity"
+            android:exported="true"
+            android:label="          Tcx Food Ordering      "
+            android:parentActivityName=".loginscreens.LoginScreenActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity android:name=".AccountSectionDetailsActivity"
+            android:exported="true"
+            android:label="            Tcx Food Ordering      "
+            android:parentActivityName=".dashboard.NavigationScreenActivity"
+            />
+    </application>
+
+</manifest>
